@@ -1,0 +1,25 @@
+Stage 1: In this video only stage 1 will be done.
+
+I will be creating a nodejs application to collect feedback form from customers.
+
+*1. Initialize a npm application to creaje package.json file.
+*2. Install npm packages that are required and it should reflect in package.json file.
+*3. create index.js file to create the API.
+*4. import all the packages and create methods in index.js for new entry and search entry and one method to display on which port the api is running.
+*5. seperate http template file in views folder and routes folder
+6. after developing the Api, check it using localhost:3000
+7. if everything is OK, upload to github repository, so it can be acccessed anywhere.
+
+
+Stage 2:
+Launching my application using AWS EC2 Linux instance and accessing my data using couchDB API.
+
+1. create an EC2 Linux instance and deploy it with required configurations.
+2. add a security setting to allow incoming traffic to that server.
+3. update all the packages on the system and download docker,npm,node,git packages if required.
+4. download the couchdb container from docker hub and run it using docker engine.
+5. once the container is deployed, check it using localhost:5984/_utils and create a feedback database after logging in.
+6. git clone the feedback form from github repository and deploy the application
+7. distribute the link and check it using any other system so that we can collect the feedback.
+8. check if data is coming or not using couchdb Web api.
+9. If all steps are performed, terminate the EC2 instance.

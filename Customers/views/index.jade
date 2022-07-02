@@ -1,0 +1,21 @@
+extend layout 
+
+block content 
+    h1 SIMPLE FEEDBACK FORM 
+    h2 New Feedback 
+    form(method='POST',action='/new_entry')
+        p Name: 
+        input#title(type='text',name='name')
+        p Phone Number: 
+        input#title(type='text',name='phone')
+        p Email ID: 
+        input#title(type='text',name='email')
+        p Rating(1 to 5):
+        input#title(type='text',name='rating')
+        p: button(type='submit') SUBMIT 
+    
+    h2 Search by Phone Number
+    form(method='POST',action='/view_entry')
+        p Phone Number: 
+        input#title(type='text',name='phone')
+        p: button(type='submit') SEARCH
