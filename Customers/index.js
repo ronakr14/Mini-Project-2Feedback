@@ -7,7 +7,6 @@ const methodOverride=require('method-override');
 const json=require('json');
 const nano=require('nano')('http://admin:password@localhost:5984');
 const routes=require('./routes');
-const { dirname } = require('path');
 
 var app=express();
 var db=nano.use('feedback');
